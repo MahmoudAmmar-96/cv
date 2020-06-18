@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Numerical analysis | Khaled Boulbrachene</title>
+    <link>https://KhaledBoulbrachene.github.io/tags/numerical-analysis/</link>
+      <atom:link href="https://KhaledBoulbrachene.github.io/tags/numerical-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Numerical analysis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Numerical analysis</title>
+      <link>https://KhaledBoulbrachene.github.io/tags/numerical-analysis/</link>
+    </image>
+    
+    <item>
+      <title>Implementation of an Immersed Boundary Method for a fourth-order Finite Volume Scheme</title>
+      <link>https://KhaledBoulbrachene.github.io/project/master/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://KhaledBoulbrachene.github.io/project/master/</guid>
+      <description>&lt;p&gt;Based on the work of 
+&lt;a href=&#34;https://www.researchgate.net/publication/222652710_Compact_Fourth-Order_Finite-Volume_Method_for_Numerical_Solutions_of_Navier-Stokes_Equations_on_Staggered_Grids&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arpiruk Hokpunna, 2010&lt;/a&gt;, 
+&lt;a href=&#34;https://www.researchgate.net/publication/222298105_An_Immersed_Boundary_Method_with_Direct_Forcing_for_the_Simulation_of_Particulate_Flows&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Markus Uhlmann, 2005&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A second-order and fourth-order discretization schemes for the incompressible Navier-
+Stokes equations on staggered grids are implemented. Two spatial dimensions are considered
+and the discretizations are carried out for Cartesian uniform and non-uniform grids. Implementations are then verified and the order of accuracy of the adopted spatial and temporal
+discretization schemes is validated. Next, an Immersed Boundary method (IBM) with a
+direct forcing strategy is integrated with both flow solvers to simulate fluid-solid interaction problems. The continuous IB method employs a smoothed approximation of the Dirac
+delta function with a specific order of accuracy to smear (regularize) the immersed boundary
+forces over the adjacent fluid cells. The accuracy of the solver then becomes dependent on
+the order at which the coupling quantities are interpolated. In the literature, there exist different second-order regularized delta-function variants which are well-suited to use with the
+second-order finite volume solver. However, an appropriate fourth-order regularized delta
+function is not available and its detailed derivation is presented. At last, several numerical tests with smooth and non-smooth velocity fields are conducted to observe the rate of
+convergence achieved of both IBM solvers.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drill Pipes | Khaled Boulbrachene</title>
+    <link>https://KhaledBoulbrachene.github.io/tags/drill-pipes/</link>
+      <atom:link href="https://KhaledBoulbrachene.github.io/tags/drill-pipes/index.xml" rel="self" type="application/rss+xml" />
+    <description>Drill Pipes</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Drill Pipes</title>
+      <link>https://KhaledBoulbrachene.github.io/tags/drill-pipes/</link>
+    </image>
+    
+    <item>
+      <title>Design and Fabrication of an Experimental Setup to Investigate Fatigue Failure in Drilling Pipes</title>
+      <link>https://KhaledBoulbrachene.github.io/project/bachelor/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://KhaledBoulbrachene.github.io/project/bachelor/</guid>
+      <description>&lt;p&gt;This project is aiming to build up an experimental setup that imitates drilling for oil and gas in order to investigate fatigue failure of drill-string. The proposed setup is about subjecting the drill-string to torsional and bending loads by rotating it at some given number of revolutions per minute. The rotational mechanism of the tested drilling-string is, in principle, to mimic the rotary drilling operation. In the real case, the drill-string is attached to a drilling bit which cuts through a rock formation. Resistivity of the formation is simulated through designing and building braking mechanism. In order to maintain concentricity and provide adequate stabilization and guiding the drill-string without imposing excessive torque, support mechanism has been designed. The design methodology has been followed in two main stages. The concept generation and evaluation, and the embodiment design were established in the Fall semester. In spring semester, efforts were focused to fabricate the set-up. Important decisions were taken in terms of manufacturing the setup. Preliminary tests were conducted to validate the design integrity and robustness of the setup. Number of tests were conducted to study the motion and behavior of the drill-string and the fatigue problem due to lateral and torsional vibrations was generated successfully. A comprehensive finite element modeling and analysis also developed to better understanding the drilling pipe behavior and obtain the natural frequencies of the rotating test specimens, and consequently, their critical speeds.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

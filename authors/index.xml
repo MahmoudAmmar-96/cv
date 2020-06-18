@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Khaled Boulbrachene</title>
+    <link>https://KhaledBoulbrachene.github.io/authors/</link>
+      <atom:link href="https://KhaledBoulbrachene.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 17 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Authors</title>
+      <link>https://KhaledBoulbrachene.github.io/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://KhaledBoulbrachene.github.io/authors/admin/</link>
+      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://KhaledBoulbrachene.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;I am an Algerian graduate from the master program &amp;ldquo;Computational Mechanics&amp;rdquo; at the Technical University of Munich.
+The aim of the course is to learn how to solve mechanical problems with the help of numerical approximation methods, involving discretization of the underlying equations in both space and time.
+During my studies, I have developed a profound knowledge in Finite Element Analysis, Material Modeling, Structural Optimization and Computational FLuid Dynamics.
+Currently, I am keen to get more exposed to innovative projects through employment or PhD studies.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Edris M.Hassan</title>
+      <link>https://KhaledBoulbrachene.github.io/authors/edris-m.hassan/</link>
+      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://KhaledBoulbrachene.github.io/authors/edris-m.hassan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jamil Abdo</title>
+      <link>https://KhaledBoulbrachene.github.io/authors/jamil-abdo/</link>
+      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://KhaledBoulbrachene.github.io/authors/jamil-abdo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jan Kwak</title>
+      <link>https://KhaledBoulbrachene.github.io/authors/jan-kwak/</link>
+      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://KhaledBoulbrachene.github.io/authors/jan-kwak/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Khaled Boulbrachene</title>
+    <link>https://KhaledBoulbrachene.github.io/</link>
+      <atom:link href="https://KhaledBoulbrachene.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Khaled Boulbrachene</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Khaled Boulbrachene</title>
+      <link>https://KhaledBoulbrachene.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Implementation of an Immersed Boundary Method for a fourth-order Finite Volume Scheme</title>
+      <link>https://KhaledBoulbrachene.github.io/project/master/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://KhaledBoulbrachene.github.io/project/master/</guid>
+      <description>&lt;p&gt;Based on the work of 
+&lt;a href=&#34;https://www.researchgate.net/publication/222652710_Compact_Fourth-Order_Finite-Volume_Method_for_Numerical_Solutions_of_Navier-Stokes_Equations_on_Staggered_Grids&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arpiruk Hokpunna, 2010&lt;/a&gt;, 
+&lt;a href=&#34;https://www.researchgate.net/publication/222298105_An_Immersed_Boundary_Method_with_Direct_Forcing_for_the_Simulation_of_Particulate_Flows&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Markus Uhlmann, 2005&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A second-order and fourth-order discretization schemes for the incompressible Navier-
+Stokes equations on staggered grids are implemented. Two spatial dimensions are considered
+and the discretizations are carried out for Cartesian uniform and non-uniform grids. Implementations are then verified and the order of accuracy of the adopted spatial and temporal
+discretization schemes is validated. Next, an Immersed Boundary method (IBM) with a
+direct forcing strategy is integrated with both flow solvers to simulate fluid-solid interaction problems. The continuous IB method employs a smoothed approximation of the Dirac
+delta function with a specific order of accuracy to smear (regularize) the immersed boundary
+forces over the adjacent fluid cells. The accuracy of the solver then becomes dependent on
+the order at which the coupling quantities are interpolated. In the literature, there exist different second-order regularized delta-function variants which are well-suited to use with the
+second-order finite volume solver. However, an appropriate fourth-order regularized delta
+function is not available and its detailed derivation is presented. At last, several numerical tests with smooth and non-smooth velocity fields are conducted to observe the rate of
+convergence achieved of both IBM solvers.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Immersed Boundary pisoFoam Solver</title>
+      <link>https://KhaledBoulbrachene.github.io/project/openfoam/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://KhaledBoulbrachene.github.io/project/openfoam/</guid>
+      <description>&lt;p&gt;To address the computations of solid particles in a fluid flow, one has to solve the transient Navier-Stokes (NS) equations in the fluid domain with the imposition of no-slip boundary condition at the interface between the fluid domain and the solid object. One way to achieve this is by the application of arbitrary Lagrangian-Eulerian method, which combines the advantages of both Lagrangian descripton following an individual parcel as it moves through space and Eulerian description focusing on specific locations in the space. However, this method requires adaptive meshing depending on solid particles displacements as time evolves and therefore leads to a substantial computational cost. To avoid repeated re-meshing, the whole computational domain containing the fluid and the solid is meshed with a fixed structured cartesian grid. As a result, the grid will most probably not conform to the solids boundary. Here, the introduction of the solid phase to the governing flow equations is achieved by adequately formulating a source term.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Drillstring Failure - Identification, Modeling and Experimental Characterization</title>
+      <link>https://KhaledBoulbrachene.github.io/publication/journal/</link>
+      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://KhaledBoulbrachene.github.io/publication/journal/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CFD Case Study of the JPMorgan Chase Tower</title>
+      <link>https://KhaledBoulbrachene.github.io/project/wind/</link>
+      <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://KhaledBoulbrachene.github.io/project/wind/</guid>
+      <description>&lt;p&gt;The main task of this project was to conduct a CFD analysis of the high-rise building JPMorgan Chase Tower, Houston, Texas, USA. Historical wind velocities for the previous 72 years were collected from the National Oceanic and Atmospheric Administration database and an analytical aerostatic and aerodynamic analysis using the Eurocode was performed on the building. In this work, GiD was employed for the pre-processing step of the case and CFD analysis was done using KRATOS, an open-source project developed by the chair of Structural Analysis at TUM and the International Center for Numerical Methods in Engineering (CIMNE) in Barcelona, Spain.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Implementation of the Finite Cell Method (FCM) into a commercial Finite Element software</title>
+      <link>https://KhaledBoulbrachene.github.io/project/softwarelab/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://KhaledBoulbrachene.github.io/project/softwarelab/</guid>
+      <description>&lt;p&gt;the Finite-cell method has been implemented in ABAQUS, a commercial FEM based software. Python scripts were used to automate the modelling setup, as well as performing the necessary adaptive integration of this embedded domain method to evaluate elements stiffness matrices. The user defined element (UEL) feature of ABAQUS was then employed to incorporate the custom elements via Fortran sub-routines.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Isogeometric Analyis of Trimmed Membrane Structures</title>
+      <link>https://KhaledBoulbrachene.github.io/project/trimmed/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://KhaledBoulbrachene.github.io/project/trimmed/</guid>
+      <description>&lt;p&gt;The task of this project was to extend the functionality of a given Isogeometric Analysis (IGA) code for continuous membranes to account for trimmed ones. IGA uses the CAD information as an analysis model, instead of constructing a separate computational model. In order to get accurate results, a k-refinement is performed on the geometrical model. To represent complex geometries trimmed NURBS geometries are employed. In this present work, form finding is done on trimmed membrane surfaces. This project is implemented using MATLAB for the analysis and Rhino to define the geometries.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Modeling and Experimental Investigations of Drill Pipe Failure</title>
+      <link>https://KhaledBoulbrachene.github.io/publication/conf-article/</link>
+      <pubDate>Wed, 10 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://KhaledBoulbrachene.github.io/publication/conf-article/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Design and Fabrication of an Experimental Setup to Investigate Fatigue Failure in Drilling Pipes</title>
+      <link>https://KhaledBoulbrachene.github.io/project/bachelor/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://KhaledBoulbrachene.github.io/project/bachelor/</guid>
+      <description>&lt;p&gt;This project is aiming to build up an experimental setup that imitates drilling for oil and gas in order to investigate fatigue failure of drill-string. The proposed setup is about subjecting the drill-string to torsional and bending loads by rotating it at some given number of revolutions per minute. The rotational mechanism of the tested drilling-string is, in principle, to mimic the rotary drilling operation. In the real case, the drill-string is attached to a drilling bit which cuts through a rock formation. Resistivity of the formation is simulated through designing and building braking mechanism. In order to maintain concentricity and provide adequate stabilization and guiding the drill-string without imposing excessive torque, support mechanism has been designed. The design methodology has been followed in two main stages. The concept generation and evaluation, and the embodiment design were established in the Fall semester. In spring semester, efforts were focused to fabricate the set-up. Important decisions were taken in terms of manufacturing the setup. Preliminary tests were conducted to validate the design integrity and robustness of the setup. Number of tests were conducted to study the motion and behavior of the drill-string and the fatigue problem due to lateral and torsional vibrations was generated successfully. A comprehensive finite element modeling and analysis also developed to better understanding the drilling pipe behavior and obtain the natural frequencies of the rotating test specimens, and consequently, their critical speeds.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
