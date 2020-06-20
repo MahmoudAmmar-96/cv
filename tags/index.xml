@@ -1,152 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags | Khaled Boulbrachene</title>
-    <link>https://KhaledBoulbrachene.github.io/tags/</link>
-      <atom:link href="https://KhaledBoulbrachene.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <title>Tags | Academic</title>
+    <link>/tags/</link>
+      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Tags</title>
-      <link>https://KhaledBoulbrachene.github.io/tags/</link>
+      <link>/tags/</link>
     </image>
-    
-    <item>
-      <title>Computational Fluid Dynamics</title>
-      <link>https://KhaledBoulbrachene.github.io/tags/computational-fluid-dynamics/</link>
-      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://KhaledBoulbrachene.github.io/tags/computational-fluid-dynamics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Immersed Boundary Method</title>
-      <link>https://KhaledBoulbrachene.github.io/tags/immersed-boundary-method/</link>
-      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://KhaledBoulbrachene.github.io/tags/immersed-boundary-method/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Numerical analysis</title>
-      <link>https://KhaledBoulbrachene.github.io/tags/numerical-analysis/</link>
-      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://KhaledBoulbrachene.github.io/tags/numerical-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fluid Structure Interaction</title>
-      <link>https://KhaledBoulbrachene.github.io/tags/fluid-structure-interaction/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://KhaledBoulbrachene.github.io/tags/fluid-structure-interaction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>OpenFoam</title>
-      <link>https://KhaledBoulbrachene.github.io/tags/openfoam/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://KhaledBoulbrachene.github.io/tags/openfoam/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Drill String Failure</title>
-      <link>https://KhaledBoulbrachene.github.io/tags/drill-string-failure/</link>
-      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://KhaledBoulbrachene.github.io/tags/drill-string-failure/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Drill String Safety</title>
-      <link>https://KhaledBoulbrachene.github.io/tags/drill-string-safety/</link>
-      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://KhaledBoulbrachene.github.io/tags/drill-string-safety/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fatigue Failure</title>
-      <link>https://KhaledBoulbrachene.github.io/tags/fatigue-failure/</link>
-      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://KhaledBoulbrachene.github.io/tags/fatigue-failure/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lateral and Torsional Vibration</title>
-      <link>https://KhaledBoulbrachene.github.io/tags/lateral-and-torsional-vibration/</link>
-      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://KhaledBoulbrachene.github.io/tags/lateral-and-torsional-vibration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Structural Analysis</title>
-      <link>https://KhaledBoulbrachene.github.io/tags/structural-analysis/</link>
-      <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://KhaledBoulbrachene.github.io/tags/structural-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ABAQUS</title>
-      <link>https://KhaledBoulbrachene.github.io/tags/abaqus/</link>
-      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>https://KhaledBoulbrachene.github.io/tags/abaqus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Finite Cell Method</title>
-      <link>https://KhaledBoulbrachene.github.io/tags/finite-cell-method/</link>
-      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>https://KhaledBoulbrachene.github.io/tags/finite-cell-method/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Formfinding</title>
-      <link>https://KhaledBoulbrachene.github.io/tags/formfinding/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>https://KhaledBoulbrachene.github.io/tags/formfinding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Isogeometric Analysis</title>
-      <link>https://KhaledBoulbrachene.github.io/tags/isogeometric-analysis/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>https://KhaledBoulbrachene.github.io/tags/isogeometric-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Drill Pipes</title>
-      <link>https://KhaledBoulbrachene.github.io/tags/drill-pipes/</link>
-      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>https://KhaledBoulbrachene.github.io/tags/drill-pipes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mechanical Design</title>
-      <link>https://KhaledBoulbrachene.github.io/tags/mechanical-design/</link>
-      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>https://KhaledBoulbrachene.github.io/tags/mechanical-design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vibration</title>
-      <link>https://KhaledBoulbrachene.github.io/tags/vibration/</link>
-      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>https://KhaledBoulbrachene.github.io/tags/vibration/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
