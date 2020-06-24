@@ -30,5 +30,15 @@
 </description>
     </item>
     
+    <item>
+      <title>Fluid-Structure Interaction Simulation with Multiple Interfaces</title>
+      <link>/project/fsi/</link>
+      <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/project/fsi/</guid>
+      <description>&lt;p&gt;The report of the project aims to explain the literature review, work flow, and results of a group project. The tasks were to implement different coupling algorithms for two
+and three springs systems, for a three coupled beams system, and finally solve an FSI problem with two interfaces. In this present work, the first two tasks were implemented in Python and different relaxation methods were used to compare the results, and the last task was implemented in Python using Kratos Multiphysics for the analysis, and GiD for visualization.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
