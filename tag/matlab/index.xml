@@ -21,5 +21,14 @@
 </description>
     </item>
     
+    <item>
+      <title>Implementation of a solver for the NS-Equations</title>
+      <link>/project/cfd/</link>
+      <pubDate>Sat, 30 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/project/cfd/</guid>
+      <description>&lt;p&gt;The slides of the project aims to explain the whole steps of implementing the 2D solver. It starts with discussing the results of the advection-diffusion equation and its stability, then the time integration using Runge-Kutta method. This is followed with discussing the results with pressure correction and the numerical differences between the iterative and direct solvers used.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

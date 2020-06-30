@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="A Project of the course Fluid-Structure Interaction with OpenSource.">
+  <meta name="description" content="A Project of the course Computational Fluid Mechanics.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/project/fsi/">
+  <link rel="alternate" hreflang="en-us" href="/project/cfd/">
 
   
 
@@ -217,7 +217,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hufd51855d62eaf479e888c08860b63d40_58678_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hufd51855d62eaf479e888c08860b63d40_58678_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/project/fsi/">
+  <link rel="canonical" href="/project/cfd/">
 
   
   
@@ -232,15 +232,15 @@
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Mahmoud Ammar">
-  <meta property="og:url" content="/project/fsi/">
-  <meta property="og:title" content="Fluid-Structure Interaction Simulation with Multiple Interfaces | Mahmoud Ammar">
-  <meta property="og:description" content="A Project of the course Fluid-Structure Interaction with OpenSource."><meta property="og:image" content="/project/fsi/featured.png">
-  <meta property="twitter:image" content="/project/fsi/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="/project/cfd/">
+  <meta property="og:title" content="Implementation of a solver for the NS-Equations | Mahmoud Ammar">
+  <meta property="og:description" content="A Project of the course Computational Fluid Mechanics."><meta property="og:image" content="/project/cfd/featured.png">
+  <meta property="twitter:image" content="/project/cfd/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2018-09-28T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2018-06-30T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2018-09-28T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2018-06-30T00:00:00&#43;00:00">
   
 
   
@@ -262,16 +262,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/project/fsi/"
+    "@id": "/project/cfd/"
   },
-  "headline": "Fluid-Structure Interaction Simulation with Multiple Interfaces",
+  "headline": "Implementation of a solver for the NS-Equations",
   
   "image": [
-    "/project/fsi/featured.png"
+    "/project/cfd/featured.png"
   ],
   
-  "datePublished": "2018-09-28T00:00:00Z",
-  "dateModified": "2018-09-28T00:00:00Z",
+  "datePublished": "2018-06-30T00:00:00Z",
+  "dateModified": "2018-06-30T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -286,7 +286,7 @@
       "url": "/images/icon_hufd51855d62eaf479e888c08860b63d40_58678_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "A Project of the course Fluid-Structure Interaction with OpenSource."
+  "description": "A Project of the course Computational Fluid Mechanics."
 }
 </script>
 
@@ -304,7 +304,7 @@
 
 
 
-  <title>Fluid-Structure Interaction Simulation with Multiple Interfaces | Mahmoud Ammar</title>
+  <title>Implementation of a solver for the NS-Equations | Mahmoud Ammar</title>
 
 </head>
 
@@ -554,12 +554,10 @@
 
   
   
-    
-  
 
 
 <div class="article-container pt-3">
-  <h1>Fluid-Structure Interaction Simulation with Multiple Interfaces</h1>
+  <h1>Implementation of a solver for the NS-Equations</h1>
 
   
 
@@ -577,7 +575,7 @@
     
       
     
-    Sep 28, 2018
+    Jun 30, 2018
   </span>
   
 
@@ -620,13 +618,25 @@
 
 
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
     
   
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="/project/fsi/FSI_Report.pdf" target="_blank" rel="noopener">
-  PDF
+<a class="btn btn-outline-primary my-1 mr-1" href="/project/cfd/CFDPresentation.pdf" target="_blank" rel="noopener">
+  Slides
 </a>
 
 
@@ -635,26 +645,16 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 </div>
 
 
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 203px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 457px; max-height: 352px;">
   <div style="position: relative">
-    <img src="/project/fsi/featured_hub23a9b51f314eca3d66ed8eadcc24420_339451_720x0_resize_lanczos_2.png" alt="" class="featured-image">
-    <span class="article-header-caption">FSI simulation</span>
+    <img src="/project/cfd/featured.png" alt="" class="featured-image">
+    <span class="article-header-caption">Channel flow</span>
   </div>
 </div>
 
@@ -663,8 +663,7 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>The report of the project aims to explain the literature review, work flow, and results of a group project. The tasks were to implement different coupling algorithms for two
-and three springs systems, for a three coupled beams system, and finally solve an FSI problem with two interfaces. In this present work, the first two tasks were implemented in Python and different relaxation methods were used to compare the results, and the last task was implemented in Python using Kratos Multiphysics for the analysis, and GiD for visualization.</p>
+      <p>The slides of the project aims to explain the whole steps of implementing the 2D solver. It starts with discussing the results of the advection-diffusion equation and its stability, then the time integration using Runge-Kutta method. This is followed with discussing the results with pressure correction and the numerical differences between the iterative and direct solvers used.</p>
 
     </div>
 
@@ -679,9 +678,9 @@ and three springs systems, for a three coupled beams system, and finally solve a
   
   <a class="badge badge-light" href="/tag/cfd/">CFD</a>
   
-  <a class="badge badge-light" href="/tag/fem/">FEM</a>
+  <a class="badge badge-light" href="/tag/matlab/">Matlab</a>
   
-  <a class="badge badge-light" href="/tag/python/">Python</a>
+  <a class="badge badge-light" href="/tag/numerical-methods/">Numerical Methods</a>
   
 </div>
 
@@ -698,7 +697,7 @@ and three springs systems, for a three coupled beams system, and finally solve a
       
       
       <li>
-        <a href="mailto:?subject=Fluid-Structure%20Interaction%20Simulation%20with%20Multiple%20Interfaces&amp;body=/project/fsi/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Implementation%20of%20a%20solver%20for%20the%20NS-Equations&amp;body=/project/cfd/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -711,7 +710,7 @@ and three springs systems, for a three coupled beams system, and finally solve a
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/project/fsi/&amp;title=Fluid-Structure%20Interaction%20Simulation%20with%20Multiple%20Interfaces" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/project/cfd/&amp;title=Implementation%20of%20a%20solver%20for%20the%20NS-Equations" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -831,15 +830,15 @@ and three springs systems, for a three coupled beams system, and finally solve a
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/project/wind/">Structural Wind Analysis of The High-Rise Building JPMorgan Chase Tower Using the Eurocode Standard and CFD Simulations</a></li>
-      
-      <li><a href="/project/spacetime/">Space-Time Finite Elements For 1D Heat Equation</a></li>
-      
       <li><a href="/project/ibmfoam/">Immersed Boundary pisoFoam Solver</a></li>
       
       <li><a href="/project/pump-copy/">CFD Analysis for a Pump Design</a></li>
       
-      <li><a href="/project/cfd/">Implementation of a solver for the NS-Equations</a></li>
+      <li><a href="/project/wind/">Structural Wind Analysis of The High-Rise Building JPMorgan Chase Tower Using the Eurocode Standard and CFD Simulations</a></li>
+      
+      <li><a href="/project/fsi/">Fluid-Structure Interaction Simulation with Multiple Interfaces</a></li>
+      
+      <li><a href="/project/trimmed/">Isogeometric analyis of trimmed membrane structures</a></li>
       
     </ul>
   </div>

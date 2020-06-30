@@ -14,9 +14,9 @@
     
     <item>
       <title>CFD Analysis for a Pump Design</title>
-      <link>/project/pump/</link>
+      <link>/project/pump-copy/</link>
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/pump/</guid>
+      <guid>/project/pump-copy/</guid>
       <description>&lt;p&gt;The main task of this project was to conduct a CFD analysis of a pump design on the SimScale platform. Post-processing was done in ParaView and the pump curves were calculated.&lt;/p&gt;
 </description>
     </item>

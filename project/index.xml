@@ -23,9 +23,9 @@
     
     <item>
       <title>CFD Analysis for a Pump Design</title>
-      <link>/project/pump/</link>
+      <link>/project/pump-copy/</link>
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/pump/</guid>
+      <guid>/project/pump-copy/</guid>
       <description>&lt;p&gt;The main task of this project was to conduct a CFD analysis of a pump design on the SimScale platform. Post-processing was done in ParaView and the pump curves were calculated.&lt;/p&gt;
 </description>
     </item>
@@ -64,6 +64,15 @@ and three springs systems, for a three coupled beams system, and finally solve a
       <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
       <guid>/project/trimmed/</guid>
       <description>&lt;p&gt;The task was to extend a given code for the IGA of untrimmed membranes to the application of trimmed IGA. IGA uses the CAD information as an analysis model, instead of constructing a separate computational model. In order to get accurate results, a k-refinement is performed on the geometrical model. To represent complex geometries trimmed NURBS geometries are employed. In this present work, form finding is done on trimmed membrane surfaces. This project is implemented using MATLAB for the analysis and Rhino to define the geometries.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Implementation of a solver for the NS-Equations</title>
+      <link>/project/cfd/</link>
+      <pubDate>Sat, 30 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/project/cfd/</guid>
+      <description>&lt;p&gt;The slides of the project aims to explain the whole steps of implementing the 2D solver. It starts with discussing the results of the advection-diffusion equation and its stability, then the time integration using Runge-Kutta method. This is followed with discussing the results with pressure correction and the numerical differences between the iterative and direct solvers used.&lt;/p&gt;
 </description>
     </item>
     
