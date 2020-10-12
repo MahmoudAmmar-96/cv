@@ -5,12 +5,20 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Mahmoud Ammar</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 31 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 10 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hufd51855d62eaf479e888c08860b63d40_58678_512x512_fill_lanczos_center_2.png</url>
       <title>Mahmoud Ammar</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Python-based Dockerized RESTful Service for Finding Combinations of a Fibonacci Number</title>
+      <link>/project/fib/</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/project/fib/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Immersed Boundary pisoFoam Solver</title>
@@ -105,9 +113,9 @@ and three springs systems, for a three coupled beams system, and finally solve a
     
     <item>
       <title>Python-based Dockerized RESTful Service for Finding Combinations of a Fibonacci Number</title>
-      <link>/project/fib/</link>
+      <link>/sideproject/fib/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/fib/</guid>
+      <guid>/sideproject/fib/</guid>
       <description></description>
     </item>
     
