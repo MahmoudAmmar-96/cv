@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker | Mahmoud Ammar</title>
+    <link>/tag/docker/</link>
+      <atom:link href="/tag/docker/index.xml" rel="self" type="application/rss+xml" />
+    <description>Docker</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/images/icon_hufd51855d62eaf479e888c08860b63d40_58678_512x512_fill_lanczos_center_2.png</url>
+      <title>Docker</title>
+      <link>/tag/docker/</link>
+    </image>
+    
+    <item>
+      <title>Python-based Dockerized RESTful Service for Finding Combinations of a Fibonacci Number</title>
+      <link>/project/fib/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/fib/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

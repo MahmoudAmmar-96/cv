@@ -146,6 +146,10 @@
   </url>
   
   <url>
+    <loc>/tag/docker/</loc>
+  </url>
+  
+  <url>
     <loc>/author/mahmoud-ammar/</loc>
   </url>
   
@@ -162,7 +166,15 @@
   </url>
   
   <url>
+    <loc>/project/fib/</loc>
+  </url>
+  
+  <url>
     <loc>/talk/</loc>
+  </url>
+  
+  <url>
+    <loc>/tag/rest/</loc>
   </url>
   
 </urlset>
